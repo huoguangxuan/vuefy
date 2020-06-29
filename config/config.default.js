@@ -43,7 +43,7 @@ module.exports = (appInfo) => {
       database: 'heroku_be286055a3ad4ba',
       username: 'b2f7a686fd6db7',
       password: 'a4687743',
-      // timezone: '+8:00',
+      timezone: '+8:00',
     },
     // // 配置egg安全机制
     security: {
