@@ -30,7 +30,7 @@ module.exports = (appInfo) => {
   const userConfig = {
     // myAppName: 'egg',
     urls: {
-      stuer_url: 'http://127.0.0.1:7001',
+      stuer_url: 'https://vuefy.herokuapp.com/',
     },
     // 设置登录token为一周
     loginTokenTime: 7 * 24 * 60 * 60,
@@ -38,11 +38,11 @@ module.exports = (appInfo) => {
     pwdSecrect: 'pwdsecrect',
     sequelize: {
       dialect: 'mysql',
-      host: '127.0.0.1',
+      host: 'us-cdbr-east-02.cleardb.com',
       port: 3306,
-      database: 'fangyuan',
-      username: 'root',
-      password: 'sa',
+      database: 'heroku_be286055a3ad4ba',
+      username: 'b2f7a686fd6db7',
+      password: 'a4687743',
       // timezone: '+8:00',
     },
     // // 配置egg安全机制
